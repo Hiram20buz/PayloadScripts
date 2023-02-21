@@ -41,3 +41,8 @@ for i in range(len(nums)):
 
 ```
 ### https://www.base64decode.org/
+
+### The main idea is to hide the payload inside an image or another file and then read the binary data of a file to ...
+### recover the base64 code of any type of codification to use it as the example above.
+
+### Using the exec() function in python.
