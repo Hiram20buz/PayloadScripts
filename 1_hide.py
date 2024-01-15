@@ -1,6 +1,7 @@
 import numpy as np
 import PIL.Image
 
+
 message_to_hide="This is my secret message!"
 
 image=PIL.Image.open('image.png','r')
@@ -14,4 +15,3 @@ if image.mode == "P":
 channels= 4 if image.mode == "RGBA" else 3
 
 pixels=img_arr.size // channels
-
