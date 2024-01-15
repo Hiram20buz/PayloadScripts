@@ -17,4 +17,3 @@ with open('image.png','rb') as f:
 for line in lines:
     print(line.decode())
 '''
-    
